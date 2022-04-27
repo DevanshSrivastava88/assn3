@@ -46,7 +46,7 @@ public class Employee {
 		return this.salary*12;
 	}
 	
-	int raiseSalary(int percent) {
+	public int raiseSalary(int percent) {
 		return this.salary+ ((this.salary*percent)/100);
 	}
 
